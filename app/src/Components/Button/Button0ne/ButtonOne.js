@@ -1,12 +1,12 @@
 import React from 'react';
-import './Button.css';
+import './ButtonOne.css';
 
-const Button = (props) => {
+const ButtonOne = (props) => {
     const {Name} = props;
     return (
         <button className="button">
-            {Name} home
+            {Name}home
         </button>
     );
 }
-export default Button;
+export default ButtonOne;
