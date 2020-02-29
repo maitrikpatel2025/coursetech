@@ -1,0 +1,21 @@
+.button {
+    background:transparent;
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 25px;
+  }
+  .button:hover {
+    background-image:linear-gradient(to right, #36d1dc, #5b86e5);
+    color: white;
+    border-radius: 25px;
+  }
